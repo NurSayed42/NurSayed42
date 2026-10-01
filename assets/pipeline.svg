@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="658" height="84" viewBox="0 0 658 84" role="img" aria-label="Engineering flow: Frontend, Backend, Database, AI, Automation.">
+<title>Frontend → Backend → Database → AI → Automation</title>
+<style>:root{--fg:#1f2328;--muted:#59636e;--line:#d1d9e0;--accent:#0969da;--node:#f6f8fa;--soft:#ddf4ff}
+@media (prefers-color-scheme:dark){:root{--fg:#e6edf3;--muted:#9198a1;--line:#3d444d;--accent:#4493f8;--node:#151b23;--soft:#121d2f}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif}
+.box{fill:var(--node);stroke:var(--line);stroke-width:1.2}
+.lbl{fill:var(--fg);font-size:17px;font-weight:550;text-anchor:middle}
+.step{fill:var(--muted);font-size:11px;letter-spacing:1px;text-anchor:middle;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.track{stroke:var(--line);stroke-width:1.5}
+.flow{stroke:var(--accent);stroke-width:1.5;stroke-dasharray:3 7;animation:dash 1.4s linear infinite}
+.chev{fill:none;stroke:var(--accent);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+@keyframes dash{to{stroke-dashoffset:-20}}
+@media (prefers-reduced-motion:reduce){.flow{animation:none}}
+</style>
+<line class="track" x1="117" y1="53.0" x2="133" y2="53.0"/><line class="flow f0" x1="117" y1="53.0" x2="132" y2="53.0"/><path class="chev" d="M128 49.0 L133 53.0 L128 57.0"/><line class="track" x1="253" y1="53.0" x2="269" y2="53.0"/><line class="flow f1" x1="253" y1="53.0" x2="268" y2="53.0"/><path class="chev" d="M264 49.0 L269 53.0 L264 57.0"/><line class="track" x1="389" y1="53.0" x2="405" y2="53.0"/><line class="flow f2" x1="389" y1="53.0" x2="404" y2="53.0"/><path class="chev" d="M400 49.0 L405 53.0 L400 57.0"/><line class="track" x1="525" y1="53.0" x2="541" y2="53.0"/><line class="flow f3" x1="525" y1="53.0" x2="540" y2="53.0"/><path class="chev" d="M536 49.0 L541 53.0 L536 57.0"/><g><text class="step" x="57.0" y="20">01</text><rect class="box" x="1" y="30" width="112" height="46" rx="10"/><text class="lbl" x="57.0" y="59.0">Frontend</text></g><g><text class="step" x="193.0" y="20">02</text><rect class="box" x="137" y="30" width="112" height="46" rx="10"/><text class="lbl" x="193.0" y="59.0">Backend</text></g><g><text class="step" x="329.0" y="20">03</text><rect class="box" x="273" y="30" width="112" height="46" rx="10"/><text class="lbl" x="329.0" y="59.0">Database</text></g><g><text class="step" x="465.0" y="20">04</text><rect class="box" x="409" y="30" width="112" height="46" rx="10"/><text class="lbl" x="465.0" y="59.0">AI</text></g><g><text class="step" x="601.0" y="20">05</text><rect class="box" x="545" y="30" width="112" height="46" rx="10"/><text class="lbl" x="601.0" y="59.0">Automation</text></g>
+</svg>
