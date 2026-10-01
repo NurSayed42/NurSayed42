@@ -80,19 +80,19 @@ The problems I enjoy most:
     <td width="50%" valign="top">
       <h3><a href="https://github.com/NurSayed42/ECommerceBackend">E-Commerce Backend</a></h3>
       <p>REST API and admin dashboard with JWT security, catalogue and inventory, orders, coupons and SSLCommerz payments.</p>
-      <p><code>Spring Boot</code> <code>Spring Security</code> <code>PostgreSQL</code> <code>Docker</code></p>
+      <p><code>Spring&nbsp;Boot</code> <code>Spring&nbsp;Security</code> <code>PostgreSQL</code> <code>Docker</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/NurSayed42/eCommerceFrontend">E-Commerce Frontend</a></h3>
       <p>React storefront for the API above, with token refresh, filters, cart, checkout and order tracking.<br><a href="https://e-commerce-frontend-five-snowy.vercel.app">Live demo →</a></p>
-      <p><code>React</code> <code>Redux Toolkit</code> <code>Tailwind CSS</code></p>
+      <p><code>React</code> <code>Redux&nbsp;Toolkit</code> <code>Tailwind&nbsp;CSS</code></p>
     </td>
   </tr>
   <tr>
     <td colspan="2" valign="top">
       <h3><a href="https://github.com/NurSayed42/swe-internship-experience">Engineering Case Studies</a></h3>
       <p>Architecture write-ups of systems built in a banking environment — a real-time virtual conference prototype and a browser-automation pipeline with a separate OCR microservice. Source code is not public.</p>
-      <p><code>Spring Boot</code> <code>Selenium</code> <code>FastAPI</code> <code>PaddleOCR</code> <code>PostgreSQL</code></p>
+      <p><code>Spring&nbsp;Boot</code> <code>Selenium</code> <code>FastAPI</code> <code>PaddleOCR</code> <code>PostgreSQL</code></p>
     </td>
   </tr>
 </table>
