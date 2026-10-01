@@ -1,8 +1,8 @@
-<img src="assets/hero.svg" width="720" alt="Nur Sayed — Lead Engineer @ VecoSoft. Full-Stack Engineering, AI & RAG Systems, Backend Architecture, Automation.">
+<img src="assets/hero/hero.svg" width="720" alt="Nur Sayed — Lead Engineer @ VecoSoft. AI & RAG Systems, Full-Stack Engineering, Backend Architecture, Automation.">
 
 **Full-stack engineer building reliable products, AI systems and automation.**
 
-<img src="assets/pipeline.svg" width="658" alt="Engineering flow: Frontend → Backend → Database → AI → Automation">
+<img src="assets/architecture/stack.svg" width="560" alt="Layered system: 01 Frontend (React, Next.js) → 02 Backend (Spring Boot, Django, FastAPI) → 03 Database (PostgreSQL, Redis) → 04 AI (LLMs, RAG, agents) → 05 Automation (workers, queues, workflows)">
 
 I build software products end to end — from interfaces and APIs to data, AI features and the automation around them. At VecoSoft I work across architecture, development and technical decisions, turning product requirements into systems that work reliably in real use.
 
@@ -13,20 +13,24 @@ I build software products end to end — from interfaces and APIs to data, AI fe
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/architecture/icon-fullstack.svg" width="40" alt=""><br>
       <sub><b>FULL-STACK</b></sub><br>
       React, Next.js, Django, Spring Boot
     </td>
     <td width="50%" valign="top">
+      <img src="assets/architecture/icon-backend.svg" width="40" alt=""><br>
       <sub><b>BACKEND</b></sub><br>
       APIs, PostgreSQL, Redis, queues, system architecture
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/architecture/icon-ai.svg" width="40" alt=""><br>
       <sub><b>AI ENGINEERING</b></sub><br>
       LLMs, RAG, retrieval, citations, AI workflows
     </td>
     <td width="50%" valign="top">
+      <img src="assets/architecture/icon-automation.svg" width="40" alt=""><br>
       <sub><b>AUTOMATION</b></sub><br>
       AI agents, workflow automation, integrations
     </td>
@@ -35,33 +39,28 @@ I build software products end to end — from interfaces and APIs to data, AI fe
 
 ## What I build
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <b>AI systems</b><br>
-      <sub>Reliable retrieval, grounded answers, citation-aware AI and AI-assisted workflows.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>Backend systems</b><br>
-      <sub>APIs, transactional workflows, retries, queues, data models and failure recovery.</sub>
-    </td>
-    <td width="33%" valign="top">
-      <b>Products</b><br>
-      <sub>End-to-end products, from database and API design to the frontend experience.</sub>
-    </td>
-  </tr>
-</table>
+**AI systems** — retrieval that finds the right context, and answers that are checked against their sources before they reach the user.
+
+<img src="assets/ai/rag-flow.svg" width="660" alt="RAG pipeline: Documents → Retrieval (hybrid BM25 + vector) → Context (sufficiency check) → LLM (grounded) → Answer (citations verified); failed citations trigger re-generation.">
+
+**Backend systems** — APIs and workers designed so that work survives a failed dependency instead of disappearing.
+
+<img src="assets/architecture/backend-flow.svg" width="660" alt="Backend flow: Request → API (transactional outbox) → Queue (Redis) → Worker (idempotent, with retries and a dead-letter queue) → Database (PostgreSQL).">
+
+**Products** — complete features, from data model and API design through to the interface people use.
 
 ## Selected projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/projects/accent.svg" width="100%" alt="">
       <h3><a href="https://github.com/NurSayed42/mApML">Multi-Agent Automation Platform</a></h3>
       <p>AI agents plan and execute multi-step business tasks from one instruction, coordinated through a task DAG with an outbox, retries and a dead-letter queue.</p>
       <p><code>FastAPI</code> <code>PostgreSQL</code> <code>Redis</code> <code>LangChain</code> <code>ChromaDB</code> <code>React</code></p>
     </td>
     <td width="50%" valign="top">
+      <img src="assets/projects/accent.svg" width="100%" alt="">
       <h3><a href="https://github.com/NurSayed42/legalAi">Bangladesh Legal RAG</a></h3>
       <p>Legal research assistant over Bangladesh case law and statutes, with hybrid BM25 + vector retrieval and a citation verifier for every reference.</p>
       <p><code>Python</code> <code>LangGraph</code> <code>ChromaDB</code> <code>BM25</code> <code>FastAPI</code></p>
@@ -69,12 +68,14 @@ I build software products end to end — from interfaces and APIs to data, AI fe
   </tr>
   <tr>
     <td width="50%" valign="top">
+      <img src="assets/projects/accent.svg" width="100%" alt="">
       <h3>E-Commerce Platform</h3>
       <p>Spring Boot REST API and admin dashboard with JWT security, orders and payments, plus a React storefront.</p>
       <p><code>Spring&nbsp;Boot</code> <code>PostgreSQL</code> <code>React</code> <code>Redux&nbsp;Toolkit</code></p>
       <p><a href="https://github.com/NurSayed42/ECommerceBackend">Backend</a> · <a href="https://github.com/NurSayed42/eCommerceFrontend">Frontend</a> · <a href="https://e-commerce-frontend-five-snowy.vercel.app">Live demo</a></p>
     </td>
     <td width="50%" valign="top">
+      <img src="assets/projects/accent.svg" width="100%" alt="">
       <h3><a href="https://github.com/NurSayed42/swe-internship-experience">Engineering Case Studies</a></h3>
       <p>Architecture write-ups of systems built in a banking environment: a real-time conference prototype and an automation pipeline with an OCR microservice. Source not public.</p>
       <p><code>Spring&nbsp;Boot</code> <code>Selenium</code> <code>FastAPI</code> <code>PaddleOCR</code></p>
