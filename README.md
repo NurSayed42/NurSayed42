@@ -1,38 +1,118 @@
-<img src="assets/header.svg" width="100%" alt="Nur Sayed — Lead Engineer at VecoSoft. Frontend, Backend, Database, AI, Automation.">
+<img src="assets/header.svg" width="100%" alt="Nur Sayed — Lead Engineer at VecoSoft. Full-stack and AI engineering across frontend, backend, database, AI and automation.">
 
-I build software products end to end — from the interface and APIs to the database, the AI layer and the automation around it. At VecoSoft I work hands-on across engineering, system architecture and product, turning business requirements into working systems.
+**Lead Engineer at [VecoSoft](https://vecosoft.com)** — I build software products end to end: interfaces, APIs, data, AI features and the automation around them.
 
-## What I build
+[GitHub](https://github.com/NurSayed42) &nbsp;·&nbsp; [VecoSoft](https://vecosoft.com) &nbsp;·&nbsp; [Selected projects](#selected-projects) &nbsp;·&nbsp; [Contact](#contact)
 
-- **Full-stack web applications** — React / Next.js frontends on Spring Boot, Django or FastAPI backends
-- **AI applications** — retrieval-augmented generation, multi-agent workflows and LLM features with guardrails
-- **Automation** — background workers, task queues, scheduled jobs and CI/CD
-- **Mobile apps** — React Native and Flutter clients for web platforms
+<img src="assets/divider.svg" width="100%" alt="">
+
+## About
+
+I work where engineering meets product. At VecoSoft I'm hands-on across system architecture, development and technical decisions, and I work closely with the product and business side to turn requirements into systems that hold up in real use.
+
+The problems I enjoy most:
+
+- **Making AI dependable** — retrieval that finds the right context, answers that cite their sources, and pipelines that say "not enough information" instead of guessing.
+- **Designing backends that recover** — task queues, transactional outboxes, retries and dead-letter handling, so work isn't lost when a dependency fails.
+- **Shipping complete products** — taking a feature from data model and API through to the interface people actually use.
+
+## Tech stack
+
+<table>
+  <tr>
+    <td width="130"><b>Frontend</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,redux,flutter&theme=dark&perline=10">
+        <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,redux,flutter&theme=light&perline=10" height="40" alt="TypeScript, JavaScript, React, Next.js, Tailwind CSS, Redux, Flutter">
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Backend</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,py,django,fastapi&theme=dark&perline=10">
+        <img src="https://skillicons.dev/icons?i=java,spring,py,django,fastapi&theme=light&perline=10" height="40" alt="Java, Spring Boot, Python, Django, FastAPI">
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td><b>AI / ML</b></td>
+    <td>LLM applications · RAG · AI agents · LangChain · LangGraph · ChromaDB · scikit-learn · XGBoost</td>
+  </tr>
+  <tr>
+    <td><b>Data</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,mysql,redis&theme=dark&perline=10">
+        <img src="https://skillicons.dev/icons?i=postgres,mysql,redis&theme=light&perline=10" height="40" alt="PostgreSQL, MySQL, Redis">
+      </picture>
+    </td>
+  </tr>
+  <tr>
+    <td><b>Tools / DevOps</b></td>
+    <td>
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=docker,githubactions,vercel,git&theme=dark&perline=10">
+        <img src="https://skillicons.dev/icons?i=docker,githubactions,vercel,git&theme=light&perline=10" height="40" alt="Docker, GitHub Actions, Vercel, Git">
+      </picture>
+    </td>
+  </tr>
+</table>
 
 ## Selected projects
 
-| Project | What it is | Stack |
-|---|---|---|
-| [Multi-Agent Automation Platform](https://github.com/NurSayed42/mApML) | Specialized AI agents plan and execute multi-step business tasks from one instruction, coordinated through a task DAG | FastAPI · PostgreSQL · Redis · LangChain · ChromaDB · React |
-| [Bangladesh Legal RAG](https://github.com/NurSayed42/legalAi) | Legal research assistant grounded in Bangladesh case law and statutes, with hybrid retrieval and citation verification | Python · LangGraph · ChromaDB · BM25 · FastAPI |
-| [E-Commerce Backend](https://github.com/NurSayed42/ECommerceBackend) | REST API and admin dashboard with JWT security, payments and order management | Spring Boot · Spring Security · PostgreSQL · Docker |
-| [E-Commerce Frontend](https://github.com/NurSayed42/eCommerceFrontend) | React storefront for the API above — [live demo](https://e-commerce-frontend-five-snowy.vercel.app) | React · Redux Toolkit · Tailwind CSS |
-| [Engineering Case Studies](https://github.com/NurSayed42/swe-internship-experience) | Architecture write-ups of systems built in a banking environment (source not public) | Spring Boot · Selenium · FastAPI · PaddleOCR |
-
-## Tech
-
-**Languages** — TypeScript, JavaScript, Python, Java, Dart
-**Frontend** — React, Next.js, Tailwind CSS, Redux Toolkit, React Native, Flutter
-**Backend** — Spring Boot, Django REST Framework, FastAPI, REST APIs
-**Data** — PostgreSQL, MySQL, Redis, ChromaDB
-**AI / ML** — LLM applications, RAG, AI agents, LangChain, LangGraph, scikit-learn, XGBoost
-**Tooling** — Docker, GitHub Actions, Vercel
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/NurSayed42/mApML">Multi-Agent Automation Platform</a></h3>
+      <p>Specialized AI agents plan and execute multi-step business tasks from a single instruction, coordinated through a task DAG with an outbox, retries and a dead-letter queue.</p>
+      <p><code>FastAPI</code> <code>PostgreSQL</code> <code>Redis</code> <code>LangChain</code> <code>ChromaDB</code> <code>React</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/NurSayed42/legalAi">Bangladesh Legal RAG</a></h3>
+      <p>Legal research assistant over Bangladesh case law and statutes: hybrid BM25 + vector retrieval, precedent weighting and a citation verifier that checks every reference.</p>
+      <p><code>Python</code> <code>LangGraph</code> <code>ChromaDB</code> <code>BM25</code> <code>FastAPI</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/NurSayed42/ECommerceBackend">E-Commerce Backend</a></h3>
+      <p>REST API and admin dashboard with JWT security, catalogue and inventory, orders, coupons and SSLCommerz payments.</p>
+      <p><code>Spring Boot</code> <code>Spring Security</code> <code>PostgreSQL</code> <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/NurSayed42/eCommerceFrontend">E-Commerce Frontend</a></h3>
+      <p>React storefront for the API above, with token refresh, filters, cart, checkout and order tracking.<br><a href="https://e-commerce-frontend-five-snowy.vercel.app">Live demo →</a></p>
+      <p><code>React</code> <code>Redux Toolkit</code> <code>Tailwind CSS</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3><a href="https://github.com/NurSayed42/swe-internship-experience">Engineering Case Studies</a></h3>
+      <p>Architecture write-ups of systems built in a banking environment — a real-time virtual conference prototype and a browser-automation pipeline with a separate OCR microservice. Source code is not public.</p>
+      <p><code>Spring Boot</code> <code>Selenium</code> <code>FastAPI</code> <code>PaddleOCR</code> <code>PostgreSQL</code></p>
+    </td>
+  </tr>
+</table>
 
 ## Experience
 
-- **Lead Engineer** — VecoSoft *(current)*
-- **Software Development** — Islami Bank Bangladesh PLC
+**Lead Engineer** · VecoSoft · *Current*<br>
+Hands-on engineering, product development and system architecture; building AI-powered applications and automation; owning technical decisions alongside the product and business side.
 
-## Currently focused on
+**Software Development** · Islami Bank Bangladesh PLC<br>
+Built internal software for the banking environment, including the systems documented in [Engineering Case Studies](https://github.com/NurSayed42/swe-internship-experience).
 
-AI features inside full-stack products — retrieval quality, agent orchestration and evaluation.
+## Current focus
+
+AI features inside full-stack products — retrieval quality, agent orchestration and evaluation — and the backend reliability that makes them production-ready.
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## Contact
+
+Open to conversations about product engineering, AI applications and technical collaboration.
+
+[GitHub](https://github.com/NurSayed42) &nbsp;·&nbsp; [VecoSoft](https://vecosoft.com)
