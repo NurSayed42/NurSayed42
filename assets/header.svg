@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="230" viewBox="0 0 880 230" role="img" aria-label="Nur Sayed — Lead Engineer at VecoSoft. Frontend, Backend, Database, AI, Automation.">
+  <style>
+    :root { --fg:#1f2328; --muted:#59636e; --line:#d1d9e0; --accent:#0969da; --node:#f6f8fa; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fg:#e6edf3; --muted:#9198a1; --line:#3d444d; --accent:#4493f8; --node:#151b23; }
+    }
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .name  { fill:var(--fg); font-size:40px; font-weight:600; letter-spacing:-0.5px; }
+    .title { fill:var(--muted); font-size:18px; }
+    .title b { fill:var(--fg); font-weight:600; }
+    .role  { fill:var(--accent); font-size:16px; font-weight:500; opacity:0; animation: role 16s infinite; }
+    .r2 { animation-delay:4s; } .r3 { animation-delay:8s; } .r4 { animation-delay:12s; }
+    @keyframes role { 0%{opacity:0;transform:translateY(6px)} 4%,22%{opacity:1;transform:translateY(0)} 26%,100%{opacity:0;transform:translateY(-6px)} }
+
+    .intro { opacity:0; animation: intro .8s ease-out forwards; }
+    .d1 { animation-delay:.15s; } .d2 { animation-delay:.35s; }
+    @keyframes intro { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+
+    .track { stroke:var(--line); stroke-width:2; }
+    .flow  { stroke:var(--accent); stroke-width:2; stroke-dasharray:6 10; animation: dash 1.6s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset:-32; } }
+    .node rect { fill:var(--node); stroke:var(--line); stroke-width:1.5; animation: glow 10s infinite; }
+    .node text { fill:var(--fg); font-size:13px; font-weight:500; text-anchor:middle; }
+    .n2 rect{animation-delay:2s} .n3 rect{animation-delay:4s} .n4 rect{animation-delay:6s} .n5 rect{animation-delay:8s}
+    @keyframes glow { 0%,100%{stroke:var(--line)} 6%,16%{stroke:var(--accent)} 24%{stroke:var(--line)} }
+    @media (prefers-reduced-motion: reduce) {
+      .intro,.role,.flow,.node rect { animation:none; }
+      .intro,.r1 { opacity:1; }
+    }
+  </style>
+
+  <text class="name intro" x="40" y="62">Nur Sayed</text>
+  <text class="title intro d1" x="40" y="94"><tspan style="fill:var(--fg);font-weight:600">Lead Engineer</tspan> at VecoSoft</text>
+
+  <g class="intro d2">
+    <text class="role r1" x="40" y="128">Full-stack web applications</text>
+    <text class="role r2" x="40" y="128">AI applications — RAG &amp; agents</text>
+    <text class="role r3" x="40" y="128">Backend systems &amp; automation</text>
+    <text class="role r4" x="40" y="128">Product engineering, end to end</text>
+  </g>
+
+  <!-- Frontend → Backend → Database → AI → Automation -->
+  <g class="intro d2">
+    <line class="track" x1="100" y1="183" x2="780" y2="183"/>
+    <line class="flow"  x1="100" y1="183" x2="780" y2="183"/>
+    <g class="node n1"><rect x="40"  y="165" width="120" height="36" rx="8"/><text x="100" y="188">Frontend</text></g>
+    <g class="node n2"><rect x="210" y="165" width="120" height="36" rx="8"/><text x="270" y="188">Backend</text></g>
+    <g class="node n3"><rect x="380" y="165" width="120" height="36" rx="8"/><text x="440" y="188">Database</text></g>
+    <g class="node n4"><rect x="550" y="165" width="120" height="36" rx="8"/><text x="610" y="188">AI</text></g>
+    <g class="node n5"><rect x="720" y="165" width="120" height="36" rx="8"/><text x="780" y="188">Automation</text></g>
+  </g>
+</svg>
