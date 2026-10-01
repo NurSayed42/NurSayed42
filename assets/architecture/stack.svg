@@ -20,14 +20,14 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 <circle class="dot" r="3" opacity="0"><animateMotion path="M128 60 V268" dur="4.5s" begin="0.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="4.5s" begin="0.0s" repeatCount="indefinite"/></circle>
 <circle class="dot" r="3" opacity="0"><animateMotion path="M128 60 V268" dur="4.5s" begin="1.5s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="4.5s" begin="1.5s" repeatCount="indefinite"/></circle>
 <circle class="dot" r="3" opacity="0"><animateMotion path="M128 60 V268" dur="4.5s" begin="3.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="4.5s" begin="3.0s" repeatCount="indefinite"/></circle>
-<path class="faint draw" d="M252 66.0 H286" style="--len:40;stroke-dasharray:40"/>
+<path class="faint" d="M252 66.0 H286"/><path class="faint draw" d="M252 66.0 H286" style="--len:40;stroke-dasharray:40"/>
 <text class="mono acc" x="296" y="64.0" font-size="13">01</text><text class="lbl" x="324" y="65.0" font-size="18">Frontend</text><text class="sub" x="324" y="84.0" font-size="13.5">React · Next.js</text>
-<path class="faint draw" d="M252 118.0 H286" style="--len:40;stroke-dasharray:40"/>
+<path class="faint" d="M252 118.0 H286"/><path class="faint draw" d="M252 118.0 H286" style="--len:40;stroke-dasharray:40"/>
 <text class="mono acc" x="296" y="116.0" font-size="13">02</text><text class="lbl" x="324" y="117.0" font-size="18">Backend</text><text class="sub" x="324" y="136.0" font-size="13.5">Spring Boot · Django · FastAPI</text>
-<path class="faint draw" d="M252 170.0 H286" style="--len:40;stroke-dasharray:40"/>
+<path class="faint" d="M252 170.0 H286"/><path class="faint draw" d="M252 170.0 H286" style="--len:40;stroke-dasharray:40"/>
 <text class="mono acc" x="296" y="168.0" font-size="13">03</text><text class="lbl" x="324" y="169.0" font-size="18">Database</text><text class="sub" x="324" y="188.0" font-size="13.5">PostgreSQL · Redis</text>
-<path class="faint draw" d="M252 222.0 H286" style="--len:40;stroke-dasharray:40"/>
+<path class="faint" d="M252 222.0 H286"/><path class="faint draw" d="M252 222.0 H286" style="--len:40;stroke-dasharray:40"/>
 <text class="mono acc" x="296" y="220.0" font-size="13">04</text><text class="lbl" x="324" y="221.0" font-size="18">AI</text><text class="sub" x="324" y="240.0" font-size="13.5">LLMs · RAG · agents</text>
-<path class="faint draw" d="M252 274.0 H286" style="--len:40;stroke-dasharray:40"/>
+<path class="faint" d="M252 274.0 H286"/><path class="faint draw" d="M252 274.0 H286" style="--len:40;stroke-dasharray:40"/>
 <text class="mono acc" x="296" y="272.0" font-size="13">05</text><text class="lbl" x="324" y="273.0" font-size="18">Automation</text><text class="sub" x="324" y="292.0" font-size="13.5">Workers · queues · workflows</text>
 </svg>
