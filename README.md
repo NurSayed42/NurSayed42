@@ -1,6 +1,4 @@
-# Nur Sayed
-
-Lead Engineer at **VecoSoft**.
+<img src="assets/header.svg" width="100%" alt="Nur Sayed — Lead Engineer at VecoSoft. Frontend, Backend, Database, AI, Automation.">
 
 I build software products end to end — from the interface and APIs to the database, the AI layer and the automation around it. At VecoSoft I work hands-on across engineering, system architecture and product, turning business requirements into working systems.
 
