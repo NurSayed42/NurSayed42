@@ -11,7 +11,7 @@ text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helveti
 @media (prefers-reduced-motion:reduce){.draw{animation:none}}
 </style>
 <defs><filter id="sh" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1f2328" flood-opacity=".10"/></filter></defs>
-<path class="link draw" d="M66 87.5 H594" style="--len:540;stroke-dasharray:540"/>
+<path class="faint" d="M66 87.5 H594"/><path class="link draw" d="M66 87.5 H594" style="--len:540;stroke-dasharray:540"/>
 <g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="8s" begin="-0.0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="28,78 66,97 66,106 28,87"/><polygon class="sr" points="66,97 104,78 104,87 66,106"/><polygon class="top" points="66,59 104,78 66,97 28,78"/></g>
 <text class="lbl" x="66" y="134" font-size="17" text-anchor="middle">Documents</text>
 <text class="sub" x="66" y="154" font-size="13" text-anchor="middle">source texts</text>
