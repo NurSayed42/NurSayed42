@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="330" viewBox="0 0 560 330" role="img" aria-label="Layered system: 01 Frontend (React, Next.js), 02 Backend (Spring Boot, Django, FastAPI), 03 Database (PostgreSQL, Redis), 04 AI (LLMs, RAG, agents), 05 Automation (workers, queues, workflows).">
+<title>Layered system: 01 Frontend (React, Next.js), 02 Backend (Spring Boot, Django, FastAPI), 03 Database (PostgreSQL, Redis), 04 AI (LLMs, RAG, agents), 05 Automation (workers, queues, workflows).</title>
+<style>:root{--fg:#1f2328;--muted:#59636e;--line:#d1d9e0;--accent:#0969da;--top:#ffffff;--l:#eef2f6;--r:#e2e8ee;--grid:#d1d9e0;--hl:#ddf4ff}
+@media (prefers-color-scheme:dark){:root{--fg:#e6edf3;--muted:#9198a1;--line:#3d444d;--accent:#4493f8;--top:#161b22;--l:#10151b;--r:#0c1015;--grid:#30363d;--hl:#12233a}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.top{fill:var(--top);stroke:var(--line);stroke-width:1} .sl{fill:var(--l);stroke:var(--line);stroke-width:1} .sr{fill:var(--r);stroke:var(--line);stroke-width:1}
+.lbl{fill:var(--fg);font-weight:600} .sub{fill:var(--muted)} .acc{fill:var(--accent)}
+.link{stroke:var(--accent);stroke-width:1.3;fill:none;opacity:.55} .faint{stroke:var(--line);stroke-width:1;fill:none}
+.dot{fill:var(--accent)}
+.draw{animation:draw 1.6s ease-out} @keyframes draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.draw{animation:none}}
+</style>
+<defs><filter id="sh" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1f2328" flood-opacity=".10"/></filter></defs>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="7s" begin="-5.2s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="10,268 128,315 128,327 10,280"/><polygon class="sr" points="128,315 246,268 246,280 128,327"/><polygon class="top" points="128,221 246,268 128,315 10,268"/></g>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="7s" begin="-3.9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="10,216 128,263 128,275 10,228"/><polygon class="sr" points="128,263 246,216 246,228 128,275"/><polygon class="top" style="stroke:var(--accent);stroke-width:1.2" points="128,169 246,216 128,263 10,216"/></g>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="7s" begin="-2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="10,164 128,211 128,223 10,176"/><polygon class="sr" points="128,211 246,164 246,176 128,223"/><polygon class="top" points="128,117 246,164 128,211 10,164"/></g>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="7s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="10,112 128,159 128,171 10,124"/><polygon class="sr" points="128,159 246,112 246,124 128,171"/><polygon class="top" points="128,65 246,112 128,159 10,112"/></g>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" dur="7s" begin="-0.0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="10,60 128,107 128,119 10,72"/><polygon class="sr" points="128,107 246,60 246,72 128,119"/><polygon class="top" points="128,13 246,60 128,107 10,60"/></g>
+<path d="M128 60 V268" class="link" stroke-dasharray="2 5" opacity=".5"/>
+<circle class="dot" r="3" opacity="0"><animateMotion path="M128 60 V268" dur="4.5s" begin="0.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="4.5s" begin="0.0s" repeatCount="indefinite"/></circle>
+<circle class="dot" r="3" opacity="0"><animateMotion path="M128 60 V268" dur="4.5s" begin="1.5s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="4.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+<circle class="dot" r="3" opacity="0"><animateMotion path="M128 60 V268" dur="4.5s" begin="3.0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="4.5s" begin="3.0s" repeatCount="indefinite"/></circle>
+<path class="faint draw" d="M252 66.0 H286" style="--len:40;stroke-dasharray:40"/>
+<text class="mono acc" x="296" y="64.0" font-size="13">01</text><text class="lbl" x="324" y="65.0" font-size="18">Frontend</text><text class="sub" x="324" y="84.0" font-size="13.5">React · Next.js</text>
+<path class="faint draw" d="M252 118.0 H286" style="--len:40;stroke-dasharray:40"/>
+<text class="mono acc" x="296" y="116.0" font-size="13">02</text><text class="lbl" x="324" y="117.0" font-size="18">Backend</text><text class="sub" x="324" y="136.0" font-size="13.5">Spring Boot · Django · FastAPI</text>
+<path class="faint draw" d="M252 170.0 H286" style="--len:40;stroke-dasharray:40"/>
+<text class="mono acc" x="296" y="168.0" font-size="13">03</text><text class="lbl" x="324" y="169.0" font-size="18">Database</text><text class="sub" x="324" y="188.0" font-size="13.5">PostgreSQL · Redis</text>
+<path class="faint draw" d="M252 222.0 H286" style="--len:40;stroke-dasharray:40"/>
+<text class="mono acc" x="296" y="220.0" font-size="13">04</text><text class="lbl" x="324" y="221.0" font-size="18">AI</text><text class="sub" x="324" y="240.0" font-size="13.5">LLMs · RAG · agents</text>
+<path class="faint draw" d="M252 274.0 H286" style="--len:40;stroke-dasharray:40"/>
+<text class="mono acc" x="296" y="272.0" font-size="13">05</text><text class="lbl" x="324" y="273.0" font-size="18">Automation</text><text class="sub" x="324" y="292.0" font-size="13.5">Workers · queues · workflows</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="212" viewBox="0 0 660 212" role="img" aria-label="Backend flow: Request, API (transactional outbox), Queue (Redis), Worker (retries, dead-letter queue), Database (PostgreSQL).">
+<title>Backend flow: Request, API (transactional outbox), Queue (Redis), Worker (retries, dead-letter queue), Database (PostgreSQL).</title>
+<style>:root{--fg:#1f2328;--muted:#59636e;--line:#d1d9e0;--accent:#0969da;--top:#ffffff;--l:#eef2f6;--r:#e2e8ee;--grid:#d1d9e0;--hl:#ddf4ff}
+@media (prefers-color-scheme:dark){:root{--fg:#e6edf3;--muted:#9198a1;--line:#3d444d;--accent:#4493f8;--top:#161b22;--l:#10151b;--r:#0c1015;--grid:#30363d;--hl:#12233a}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif} .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.top{fill:var(--top);stroke:var(--line);stroke-width:1} .sl{fill:var(--l);stroke:var(--line);stroke-width:1} .sr{fill:var(--r);stroke:var(--line);stroke-width:1}
+.lbl{fill:var(--fg);font-weight:600} .sub{fill:var(--muted)} .acc{fill:var(--accent)}
+.link{stroke:var(--accent);stroke-width:1.3;fill:none;opacity:.55} .faint{stroke:var(--line);stroke-width:1;fill:none}
+.dot{fill:var(--accent)}
+.draw{animation:draw 1.6s ease-out} @keyframes draw{from{stroke-dashoffset:var(--len)}to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.draw{animation:none}}
+</style>
+<defs><filter id="sh" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1f2328" flood-opacity=".10"/></filter></defs>
+<path class="link draw" d="M66 87.5 H594" style="--len:540;stroke-dasharray:540"/>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="8s" begin="-0.0s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="28,78 66,97 66,106 28,87"/><polygon class="sr" points="66,97 104,78 104,87 66,106"/><polygon class="top" points="66,59 104,78 66,97 28,78"/></g>
+<text class="lbl" x="66" y="134" font-size="17" text-anchor="middle">Request</text>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="8s" begin="-1.3s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="160,78 198,97 198,106 160,87"/><polygon class="sr" points="198,97 236,78 236,87 198,106"/><polygon class="top" points="198,59 236,78 198,97 160,78"/></g>
+<text class="lbl" x="198" y="134" font-size="17" text-anchor="middle">API</text>
+<text class="sub" x="198" y="154" font-size="13" text-anchor="middle">transactional outbox</text>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="8s" begin="-2.6s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="292,78 330,97 330,106 292,87"/><polygon class="sr" points="330,97 368,78 368,87 330,106"/><polygon class="top" points="330,59 368,78 330,97 292,78"/></g>
+<text class="lbl" x="330" y="134" font-size="17" text-anchor="middle">Queue</text>
+<text class="sub" x="330" y="154" font-size="13" text-anchor="middle">Redis</text>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="8s" begin="-3.9s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="424,78 462,97 462,106 424,87"/><polygon class="sr" points="462,97 500,78 500,87 462,106"/><polygon class="top" points="462,59 500,78 462,97 424,78"/></g>
+<text class="lbl" x="462" y="134" font-size="17" text-anchor="middle">Worker</text>
+<text class="sub" x="462" y="154" font-size="13" text-anchor="middle">idempotent</text>
+<g filter="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0;0 -1.5;0 0" dur="8s" begin="-5.2s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/><polygon class="sl" points="556,78 594,97 594,106 556,87"/><polygon class="sr" points="594,97 632,78 632,87 594,106"/><polygon class="top" style="stroke:var(--accent);stroke-width:1.2" points="594,59 632,78 594,97 556,78"/></g>
+<text class="lbl" x="594" y="134" font-size="17" text-anchor="middle">Database</text>
+<text class="sub" x="594" y="154" font-size="13" text-anchor="middle">PostgreSQL</text>
+<circle class="dot" r="3" opacity="0"><animateMotion path="M66 78 L198 78 L330 78 L462 78 L594 78" dur="6s" begin="0s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="6s" begin="0s" repeatCount="indefinite"/></circle>
+<circle class="dot" r="3" opacity="0"><animateMotion path="M66 78 L198 78 L330 78 L462 78 L594 78" dur="6s" begin="2s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
+<circle class="dot" r="3" opacity="0"><animateMotion path="M66 78 L198 78 L330 78 L462 78 L594 78" dur="6s" begin="4s" repeatCount="indefinite" calcMode="linear"/><animate attributeName="opacity" values="0;0.95;0.95;0" keyTimes="0;.1;.85;1" dur="6s" begin="4s" repeatCount="indefinite"/></circle>
+<path class="faint" d="M462 78 m-10 -26 q-56 -30 -112 0" stroke-dasharray="3 4"/><text class="sub" x="330" y="22" font-size="12" text-anchor="start" dx="10">retry</text><path class="faint" d="M462 78 m30 -16 l34 -34" stroke-dasharray="3 4"/><text class="sub" x="462" y="22" font-size="12" dx="66">dead-letter queue</text>
+</svg>
