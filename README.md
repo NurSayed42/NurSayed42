@@ -1,4 +1,4 @@
-<img src="assets/hero/hero.svg" width="720" alt="Nur Sayed — Lead Engineer @ VecoSoft. AI & RAG Systems, Full-Stack Engineering, Backend Architecture, Automation.">
+<img src="assets/hero/hero.svg" width="720" alt="Nur Sayed — Product Engineer @ VecoSoft. AI & RAG Systems, Full-Stack Engineering, Backend Architecture, Automation.">
 
 **Full-stack engineer building reliable products, AI systems and automation.**
 
