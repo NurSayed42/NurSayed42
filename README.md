@@ -8,6 +8,49 @@ I build software products end to end — from interfaces and APIs to data, AI fe
 
 <img src="assets/divider.svg" width="100%" alt="">
 
+## Awards & recognition
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="achievements/awards/2025-biin-merit-award-blinktalk/"><img src="achievements/awards/2025-biin-merit-award-blinktalk/images/merit-award-certificate.jpg" height="150" alt="BIIN Merit Award certificate"></a><br>
+      <b>Merit Award</b><br>
+      <sub>Bangladesh ICT &amp; Innovation Awards 2025<br>BIIN · BlinkTalk</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="achievements/competitions/2024-2025-imagen-ventures-youth-challenge-airaqi/"><img src="achievements/competitions/2024-2025-imagen-ventures-youth-challenge-airaqi/images/certificate-of-recognition.jpg" height="150" alt="imaGen Ventures certificate"></a><br>
+      <b>Divisional Champion</b><br>
+      <sub>imaGen Ventures Youth Challenge 2024–25<br>JAAGO Foundation &amp; UNICEF · AirAQI</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="achievements/programs/2026-deied-startup-scaleup-program-blinktalk/"><img src="achievements/programs/2026-deied-startup-scaleup-program-blinktalk/images/certificate-of-completion.jpg" height="150" alt="DEIED Startup and Scaleup Program certificate"></a><br>
+      <b>Startup &amp; Scaleup Program</b><br>
+      <sub>DEIED, Bangladesh Hi-Tech Park Authority · 2026<br>Founder, BlinkTalk</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="achievements/funding/2025-uihp-grant-blinktalk/"><img src="achievements/funding/2025-uihp-grant-blinktalk/images/cheque-handover-ceremony.jpg" height="150" alt="BlinkTalk grant cheque handover"></a><br>
+      <b>BDT 35,000 Innovation Grant</b><br>
+      <sub>University Innovation Hub Program · 2025<br>BlinkTalk</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="achievements/funding/2025-uihp-launchpad-grant-airaqi/"><img src="achievements/funding/2025-uihp-launchpad-grant-airaqi/images/cheque-handover.jpg" height="150" alt="AirAQI grant cheque handover"></a><br>
+      <b>BDT 55,000 LaunchPad Grant</b><br>
+      <sub>University Innovation Hub Program · 2025<br>AirAQI</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="achievements/competitions/2023-icpc-asia-dhaka-regional/"><img src="achievements/competitions/2023-icpc-asia-dhaka-regional/images/team-at-venue.jpg" height="150" alt="Team at ICPC Asia Dhaka Regional"></a><br>
+      <b>ICPC Asia Dhaka Regional</b><br>
+      <sub>Contestant · 2023<br>Algorithms &amp; data structures</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Click any card for the full certificate and photos · <a href="achievements/">All achievements →</a></sub>
+
+<img src="assets/divider.svg" width="100%" alt="">
+
 ## Core engineering
 
 <table>
@@ -82,16 +125,6 @@ I build software products end to end — from interfaces and APIs to data, AI fe
     </td>
   </tr>
 </table>
-
-## Awards & recognition
-
-- **Merit Award**, Bangladesh ICT & Innovation Awards 2025 (BIIN) — BlinkTalk, Student: Inclusion & Community Services
-- **Divisional Champion**, imaGen Ventures Youth Challenge 2024–2025 (JAAGO Foundation & UNICEF) — AirAQI
-- **Innovation grants** from the University Innovation Hub Program — BDT 35,000 for BlinkTalk and BDT 55,000 for AirAQI (2025)
-- **Startup and Scaleup Program** (DEIED, Bangladesh Hi-Tech Park Authority) — completed as founder of BlinkTalk (2026)
-- **ICPC Asia Dhaka Regional Contest** — contestant (2023)
-
-Certificates and photos: [achievements/](achievements/)
 
 ## How I think about engineering
 
