@@ -83,6 +83,16 @@ I build software products end to end — from interfaces and APIs to data, AI fe
   </tr>
 </table>
 
+## Awards & recognition
+
+- **Merit Award**, Bangladesh ICT & Innovation Awards 2025 (BIIN) — BlinkTalk, Student: Inclusion & Community Services
+- **Divisional Champion**, imaGen Ventures Youth Challenge 2024–2025 (JAAGO Foundation & UNICEF) — AirAQI
+- **Innovation grants** from the University Innovation Hub Program — BDT 35,000 for BlinkTalk and BDT 55,000 for AirAQI (2025)
+- **Startup and Scaleup Program** (DEIED, Bangladesh Hi-Tech Park Authority) — completed as founder of BlinkTalk (2026)
+- **ICPC Asia Dhaka Regional Contest** — contestant (2023)
+
+Certificates and photos: [achievements/](achievements/)
+
 ## How I think about engineering
 
 - **Reliability over happy-path demos** — a system is judged by how it behaves with bad input, slow dependencies and partial failure.
