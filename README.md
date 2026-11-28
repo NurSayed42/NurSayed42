@@ -35,8 +35,7 @@ I build software products end to end — from interfaces and APIs to data, AI fe
       <sub>University Innovation Hub Program · 2025<br>BlinkTalk</sub>
     </td>
     <td width="33%" align="center" valign="top">
-      <a href="achievements/funding/2025-uihp-launchpad-grant-airaqi/"><img src="achievements/funding/2025-uihp-launchpad-grant-airaqi/images/cheque-handover.jpg" height="150" alt="AirAQI grant cheque handover"></a><br>
-      <b>BDT 55,000 LaunchPad Grant</b><br>
+      <a href="achievements/funding/2025-uihp-launchpad-grant-airaqi/"><b>BDT 55,000 LaunchPad Grant</b></a><br>
       <sub>University Innovation Hub Program · 2025<br>AirAQI</sub>
     </td>
     <td width="33%" align="center" valign="top">
